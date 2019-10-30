@@ -5,6 +5,7 @@ import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.analysis.tokenattributes.CharTermAttribute;
 import org.apache.lucene.document.*;
 import org.apache.lucene.index.*;
+import org.apache.lucene.queryparser.classic.QueryParser;
 import org.apache.lucene.search.*;
 import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
@@ -13,6 +14,9 @@ import org.junit.Test;
 import java.io.File;
 
 public class LuceneFirst {
+    private IndexReader indexReader;
+    private IndexSearcher indexSearcher;
+
     @Test
     public void createIndex() throws Exception{
         Directory directory = FSDirectory.open(new File("D:\\Study\\Project\\index").toPath());
@@ -42,11 +46,20 @@ public class LuceneFirst {
     }
 
     @Test
-    public void rangeSearch() throws Exception{
+    public void indexSearch() throws Exception{
         Directory directory = FSDirectory.open(new File("D:\\Study\\Project\\index").toPath());
-        IndexReader indexReader = DirectoryReader.open(directory);
-        IndexSearcher indexSearcher = new IndexSearcher(indexReader);
+        indexReader = DirectoryReader.open(directory);
+        indexSearcher = new IndexSearcher(indexReader);
         Query query = new TermQuery(new Term("name","new"));
+        printQueryResult(query);
+
+
+
+        indexReader.close();
+
+    }
+
+    private void printQueryResult(Query query) throws Exception{
         TopDocs topDocs = indexSearcher.search(query,10);
         System.out.println("查询总记录数"+topDocs.totalHits);
         ScoreDoc [] scoreDocs = topDocs.scoreDocs;
@@ -56,9 +69,6 @@ public class LuceneFirst {
             System.out.println(document.get("name"));
             System.out.println("-------------------");
         }
-
-        indexReader.close();
-
     }
 
     @Test
@@ -78,22 +88,22 @@ public class LuceneFirst {
     @Test
     public void rangeQuery() throws Exception{
         Directory directory = FSDirectory.open(new File("D:\\Study\\Project\\index").toPath());
-        IndexReader indexReader = DirectoryReader.open(directory);
-        IndexSearcher indexSearcher = new IndexSearcher(indexReader);
+        indexReader = DirectoryReader.open(directory);
+        indexSearcher = new IndexSearcher(indexReader);
         Query query = LongPoint.newRangeQuery("size",1,1000);
-        TopDocs topDocs = indexSearcher.search(query,5);
-        System.out.println("查询总记录数"+topDocs.totalHits);
-        ScoreDoc [] scoreDocs = topDocs.scoreDocs;
-        for(ScoreDoc scoreDoc:scoreDocs){
-            int docId = scoreDoc.doc;
-            Document document = indexSearcher.doc(docId);
-            System.out.println(document.get("name"));
-            System.out.println(document.get("size"));
-            System.out.println(document.get("content"));
-            System.out.println("-------------------");
-        }
 
+        printQueryResult(query);
         indexReader.close();
+    }
+
+    @Test
+    public void queryParser() throws Exception{
+        Directory directory = FSDirectory.open(new File("D:\\Study\\Project\\index").toPath());
+        indexReader = DirectoryReader.open(directory);
+        indexSearcher = new IndexSearcher(indexReader);
+        QueryParser queryParser = new QueryParser("name",new StandardAnalyzer());
+        Query query = queryParser.parse("A large text");
+        printQueryResult(query);
     }
 }
 
