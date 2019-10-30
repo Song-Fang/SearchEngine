@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e28a51c-c644-4cb5-a294-1de53cc56d46" name="Default Changelist" comment="" />
+    <list default="true" id="6e28a51c-c644-4cb5-a294-1de53cc56d46" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Lucene-First/src/LuceneFirst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lucene-First/Lucene-First.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lucene-First/Lucene-First.iml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,12 +17,42 @@
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Lucene-First/src/LuceneFirst.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1029">
+              <caret line="49" column="53" selection-start-line="49" selection-start-column="53" selection-end-line="49" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Lucene-First/src/LuceneFirst.java" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="51" />
-    <option name="y" value="63" />
+    <option name="x" value="-59" />
+    <option name="y" value="436" />
     <option name="width" value="1890" />
     <option name="height" value="960" />
   </component>
@@ -41,6 +75,16 @@
             </path>
             <path>
               <item name="Lucene-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lucene-First" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lucene-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lucene-First" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lucene-Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -50,6 +94,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -60,6 +108,11 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Study\Project\Lucene-Project\Lucene-First\lib" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -73,6 +126,55 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="JUnit.LuceneFirst.indexSearch">
+    <configuration name="LuceneFirst" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lucene-First" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LuceneFirst" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LuceneFirst.createIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lucene-First" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LuceneFirst" />
+      <option name="METHOD_NAME" value="createIndex" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LuceneFirst.indexSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lucene-First" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LuceneFirst" />
+      <option name="METHOD_NAME" value="indexSearch" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LuceneFirst.tokenStream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lucene-First" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LuceneFirst" />
+      <option name="METHOD_NAME" value="tokenStream" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.LuceneFirst.indexSearch" />
+        <item itemvalue="JUnit.LuceneFirst.createIndex" />
+        <item itemvalue="JUnit.LuceneFirst.tokenStream" />
+        <item itemvalue="JUnit.LuceneFirst" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -83,12 +185,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572407689501</updated>
-      <workItem from="1572407692832" duration="369000" />
+      <workItem from="1572407692832" duration="8928000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="LuceneFirst_indexSearch - 2019.10.30 at 03h 04m 59s.xml">
+      <configuration name="LuceneFirst.indexSearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LuceneFirst_indexSearch - 2019.10.30 at 03h 05m 11s.xml">
+      <configuration name="LuceneFirst.indexSearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LuceneFirst_indexSearch - 2019.10.30 at 03h 05m 30s.xml">
+      <configuration name="LuceneFirst.indexSearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LuceneFirst_indexSearch - 2019.10.30 at 03h 05m 41s.xml">
+      <configuration name="LuceneFirst.indexSearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LuceneFirst_indexSearch - 2019.10.30 at 03h 05m 59s.xml">
+      <configuration name="LuceneFirst.indexSearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LuceneFirst_indexSearch - 2019.10.30 at 03h 06m 12s.xml">
+      <configuration name="LuceneFirst.indexSearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LuceneFirst_indexSearch - 2019.10.30 at 03h 06m 33s.xml">
+      <configuration name="LuceneFirst.indexSearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LuceneFirst_indexSearch - 2019.10.30 at 03h 06m 45s.xml">
+      <configuration name="LuceneFirst.indexSearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LuceneFirst_indexSearch - 2019.10.30 at 03h 06m 59s.xml">
+      <configuration name="LuceneFirst.indexSearch" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LuceneFirst_indexSearch - 2019.10.30 at 03h 07m 13s.xml">
+      <configuration name="LuceneFirst.indexSearch" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="369000" />
+    <option name="totallyTimeSpent" value="8928000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -98,8 +232,9 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24939272" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24939272" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
@@ -107,7 +242,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33888888" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -125,6 +260,18 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Lucene-First/src/LuceneFirst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1029">
+          <caret line="49" column="53" selection-start-line="49" selection-start-column="53" selection-end-line="49" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
