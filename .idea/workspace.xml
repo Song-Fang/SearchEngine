@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e28a51c-c644-4cb5-a294-1de53cc56d46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Lucene-First/lib/lucene-queryparser-8.2.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lucene-First/Lucene-First.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Lucene-First/Lucene-First.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lucene-First/src/LuceneFirst.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lucene-First/src/LuceneFirst.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Lucene-First/LuceneFirst.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lucene-First/LuceneFirst.class" afterDir="false" />
     </list>
@@ -23,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Lucene-First/src/LuceneFirst.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="104" column="53" selection-start-line="104" selection-start-column="53" selection-end-line="104" selection-end-column="53" />
+            <state relative-caret-position="345">
+              <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,7 +33,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$PROJECT_DIR$/Lucene-First/lib/lucene-queryparser-8.2.0.jar!/org/apache/lucene/queryparser/classic/QueryParser.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="693">
               <caret line="45" column="11" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
             </state>
           </provider>
@@ -44,7 +42,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lucene-First/src/IndexManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
+            <state relative-caret-position="861">
               <caret line="53" column="28" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -74,8 +72,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="391" />
-    <option name="y" value="40" />
+    <option name="x" value="390" />
+    <option name="y" value="39" />
     <option name="width" value="1890" />
     <option name="height" value="960" />
   </component>
@@ -149,7 +147,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LuceneFirst.queryParser">
+  <component name="RunManager" selected="JUnit.LuceneFirst.indexSearch">
     <configuration name="LuceneFirst.createIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lucene-First" />
       <option name="PACKAGE_NAME" value="" />
@@ -202,8 +200,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LuceneFirst.queryParser" />
         <item itemvalue="JUnit.LuceneFirst.indexSearch" />
+        <item itemvalue="JUnit.LuceneFirst.queryParser" />
         <item itemvalue="JUnit.LuceneFirst.createIndex" />
         <item itemvalue="JUnit.LuceneFirst.rangeQuery" />
         <item itemvalue="JUnit.LuceneFirst.rangeSearch" />
@@ -221,20 +219,11 @@
       <option name="presentableId" value="Default" />
       <updated>1572407689501</updated>
       <workItem from="1572407692832" duration="8928000" />
-      <workItem from="1572448208256" duration="7315000" />
+      <workItem from="1572448208256" duration="8253000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LuceneFirst_indexSearch - 2019.10.30 at 12h 43m 28s.xml">
-      <configuration name="LuceneFirst.indexSearch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LuceneFirst_createIndex - 2019.10.30 at 12h 59m 01s.xml">
-      <configuration name="LuceneFirst.createIndex" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LuceneFirst_rangeSearch - 2019.10.30 at 13h 00m 20s.xml">
-      <configuration name="LuceneFirst.rangeSearch" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LuceneFirst_rangeQuery - 2019.10.30 at 13h 13m 50s.xml">
       <configuration name="LuceneFirst.rangeQuery" configurationId="JUnit" />
     </history-entry>
@@ -256,15 +245,24 @@
     <history-entry file="LuceneFirst_queryParser - 2019.10.30 at 13h 25m 59s.xml">
       <configuration name="LuceneFirst.queryParser" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LuceneFirst_queryParser - 2019.10.30 at 13h 26m 30s.xml">
+      <configuration name="LuceneFirst.queryParser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LuceneFirst_queryParser - 2019.10.30 at 13h 31m 50s.xml">
+      <configuration name="LuceneFirst.queryParser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LuceneFirst_indexSearch - 2019.10.30 at 13h 32m 02s.xml">
+      <configuration name="LuceneFirst.indexSearch" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16243000" />
+    <option name="totallyTimeSpent" value="17181000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2534413" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2574899" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -273,7 +271,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30185184" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33888888" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -318,8 +316,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Lucene-First/src/LuceneFirst.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="104" column="53" selection-start-line="104" selection-start-column="53" selection-end-line="104" selection-end-column="53" />
+        <state relative-caret-position="987">
+          <caret line="95" column="61" selection-start-line="95" selection-start-column="61" selection-end-line="95" selection-end-column="61" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

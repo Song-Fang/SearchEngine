@@ -9,6 +9,7 @@ import org.apache.lucene.queryparser.classic.QueryParser;
 import org.apache.lucene.search.*;
 import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
+import org.junit.Before;
 import org.junit.Test;
 
 import java.io.File;
@@ -16,10 +17,17 @@ import java.io.File;
 public class LuceneFirst {
     private IndexReader indexReader;
     private IndexSearcher indexSearcher;
+    private Directory directory;
+
+    @Before
+    public void init() throws Exception{
+        directory = FSDirectory.open(new File("D:\\Study\\Project\\index").toPath());
+        indexReader = DirectoryReader.open(directory);
+        indexSearcher = new IndexSearcher(indexReader);
+    }
 
     @Test
     public void createIndex() throws Exception{
-        Directory directory = FSDirectory.open(new File("D:\\Study\\Project\\index").toPath());
         IndexWriter indexWriter = new IndexWriter(directory,new IndexWriterConfig());
         File dir = new File("D:\\Study\\Project\\searchSource");
         File [] files = dir.listFiles();
@@ -47,9 +55,7 @@ public class LuceneFirst {
 
     @Test
     public void indexSearch() throws Exception{
-        Directory directory = FSDirectory.open(new File("D:\\Study\\Project\\index").toPath());
-        indexReader = DirectoryReader.open(directory);
-        indexSearcher = new IndexSearcher(indexReader);
+
         Query query = new TermQuery(new Term("name","new"));
         printQueryResult(query);
 
@@ -87,20 +93,13 @@ public class LuceneFirst {
 
     @Test
     public void rangeQuery() throws Exception{
-        Directory directory = FSDirectory.open(new File("D:\\Study\\Project\\index").toPath());
-        indexReader = DirectoryReader.open(directory);
-        indexSearcher = new IndexSearcher(indexReader);
         Query query = LongPoint.newRangeQuery("size",1,1000);
-
         printQueryResult(query);
         indexReader.close();
     }
 
     @Test
     public void queryParser() throws Exception{
-        Directory directory = FSDirectory.open(new File("D:\\Study\\Project\\index").toPath());
-        indexReader = DirectoryReader.open(directory);
-        indexSearcher = new IndexSearcher(indexReader);
         QueryParser queryParser = new QueryParser("name",new StandardAnalyzer());
         Query query = queryParser.parse("A large text");
         printQueryResult(query);
