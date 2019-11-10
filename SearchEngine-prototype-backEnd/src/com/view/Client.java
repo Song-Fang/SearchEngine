@@ -4,6 +4,11 @@ import com.service.SearchService;
 
 import java.util.Scanner;
 
+/***
+ * Two primary interface
+ * One is createIndex
+ * The other is indexParser
+ */
 public class Client {
     private static SearchService searchService =new SearchService();;
     private static String queryName = null;
