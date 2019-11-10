@@ -90,9 +90,9 @@ public class SearchService {
             System.out.println("----------------------------------------------------------");
             System.out.println("Document Content fragment:");
             String content = document.get("content");
-            String subContent = content.substring(0,200);
+            String subContent = content.substring(0,700);
 
-            System.out.println(subContent);
+            System.out.println(subContent+"......");
             System.out.println("***********************************************************");
             System.out.println();
         }
