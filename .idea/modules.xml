@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Lucene-First/Lucene-First.iml" filepath="$PROJECT_DIR$/Lucene-First/Lucene-First.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SearchEngine-prototype-backEnd/SearchEngine-prototype-backEnd.iml" filepath="$PROJECT_DIR$/SearchEngine-prototype-backEnd/SearchEngine-prototype-backEnd.iml" />
     </modules>
   </component>
 </project>

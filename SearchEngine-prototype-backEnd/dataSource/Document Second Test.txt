@@ -1,0 +1,24 @@
+Adding a deck to the back of your house calls for different skills than adding a story to the top of
+your house. Building a 60-story office building requires a different approach altogether. A deck can
+be built by an amateur if he or she is sufficiently motivated, and so, occasionally, can an addition to
+a house. A skyscraper cannot, and should not, be built by an amateur, no matter how motivated
+that person may be.
+For years, software engineering has concerned itself with skyscraper-sized projects: aircraft
+control systems, military defense programs, nationwide computer networks, complex operating
+systems, and the like. But with the growth of both Internet development and component-based
+development, software developers are beginning to see an increasing number of truly useful
+applications developed as "3 x 3" projects—three developers working for three months. Traditional
+software engineering has sometimes dismissed those "small" projects as not being worthy of
+serious attention. But such projects increasingly make up the bread and butter of many developers’
+responsibilities, and they deserve some attention.
+Some people who work alone or with only one or two other developers wouldn't have it any other
+way. Small teams are more productive in many ways than large teams, but some best practices
+and experience from large teams can help small groups become even more productive. Before I
+explain how, I'll describe how team size and project size affect team dynamics, team productivity,
+and the quality of the software developed.
+Team Size, Communication, and Memory
+Communication flows more easily on small teams than large teams. If you’re the only person on a
+project, communication is simple. The only communication path is between you and the customer.
+As the number of people on a project increases, however, so does the number of communication
+paths. It doesn’t increase additively, as the number of people increases, it increases multiplicatively,
+proportional to the square of the number of people.

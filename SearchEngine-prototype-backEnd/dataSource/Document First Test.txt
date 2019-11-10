@@ -1,0 +1,26 @@
+Hold technical reviews of designs and code. Technical reviews are useful on projects as small as
+one line of code. According to Daniel P. Freedman and Gerald M. Weinberg in Handbook of
+Walk, Inspections and Technical Reviews, Third Edition (Dorset House, 1990), in one
+software maintenance organization, 55% of one-line maintenance changes were in error before
+introducing code reviews. After introducing reviews, only 2% were in error.
+Use automated source code control. Automated source code control creates virtually no overhead
+and pays for itself the first time you need to retrieve the version of the software you were working
+on yesterday. It is useful on even the smallest, one-person projects.
+Use defect-tracking software. One of the most embarrassing software errors is to release
+software that contains an error that you knew about and simply forgot to fix. Like automated
+source code control, defect-tracking software adds virtually no overhead to a project and helps to
+prevent needless mistakes. Large projects typically need sophisticated, networked defect-tracking
+software; small projects can get by with a tool as simple as a defect-tracking spreadsheet.
+Create and use checklists. Checklists are an often-overlooked, low-tech development tool, but they
+are useful in many areas. They are created from experience, so they're inherently practical. Use
+them during requirements time to avoid missing key requirements. Use them at architecture and
+design time to be sure your design accounts for all relevant considerations. Use them during design
+and code reviews to help reviewers catch the most common problems. Use them at software
+release to assure that, in the last-minute rush to release the software, you don’t make careless
+mistakes.
+The Most Important Lesson from Large Projects
+Whether you’re building a deck or a skyscraper, it’s cheaper and easier to change your plans
+during the diagram phase than during construction. A deck project might seem small by
+comparison, but if you decide to move a support post after you’ve dug the post hole, mixed
+concrete for the footing, poured the footing, set the post into the concrete, and let the concrete
+cure, you’ll wish you had spent a few more minutes scrutinizing your design. (Believe me, I have the

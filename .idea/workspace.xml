@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e28a51c-c644-4cb5-a294-1de53cc56d46" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/SearchEngine-prototype-backEnd/SearchEngine-prototype-backEnd.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SearchEngine-prototype-backEnd/lib/commons-io-2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SearchEngine-prototype-backEnd/lib/lucene-analyzers-common-8.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SearchEngine-prototype-backEnd/lib/lucene-core-8.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SearchEngine-prototype-backEnd/lib/lucene-queryparser-8.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SearchEngine-prototype-backEnd/src/com/service/SearchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SearchEngine-prototype-backEnd/src/com/view/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Lucene-First/src/LuceneFirst.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lucene-First/src/LuceneFirst.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Lucene-First/LuceneFirst.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Lucene-First/LuceneFirst.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,12 +24,12 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Lucene-First/src/LuceneFirst.java">
+        <entry file="file://$PROJECT_DIR$/SearchEngine-prototype-backEnd/src/com/service/SearchService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+            <state relative-caret-position="188">
+              <caret line="94" column="35" selection-start-line="94" selection-start-column="35" selection-end-line="94" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -31,22 +38,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/Lucene-First/lib/lucene-queryparser-8.2.0.jar!/org/apache/lucene/queryparser/classic/QueryParser.class">
+        <entry file="file://$PROJECT_DIR$/SearchEngine-prototype-backEnd/src/com/view/Client.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="45" column="11" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lucene-First/src/IndexManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="861">
-              <caret line="53" column="28" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="252">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -67,13 +62,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Lucene-First/src/IndexManager.java" />
+        <option value="$PROJECT_DIR$/SearchEngine-prototype-backEnd/src/View/Client.java" />
+        <option value="$PROJECT_DIR$/SearchEngine-prototype-backEnd/dataSource/Document First Test.txt" />
         <option value="$PROJECT_DIR$/Lucene-First/src/LuceneFirst.java" />
+        <option value="$PROJECT_DIR$/SearchEngine-prototype-backEnd/src/com/view/Client.java" />
+        <option value="$PROJECT_DIR$/SearchEngine-prototype-backEnd/src/com/service/SearchService.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="390" />
-    <option name="y" value="39" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-23" />
+    <option name="y" value="112" />
     <option name="width" value="1890" />
     <option name="height" value="960" />
   </component>
@@ -105,6 +104,40 @@
             </path>
             <path>
               <item name="Lucene-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SearchEngine-prototype-backEnd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lucene-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SearchEngine-prototype-backEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lucene-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SearchEngine-prototype-backEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lucene-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SearchEngine-prototype-backEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lucene-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SearchEngine-prototype-backEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lucene-Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SearchEngine-prototype-backEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lucene-Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -123,7 +156,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Lucene-First/lib/lucene-queryparser-8.2.0.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/SearchEngine-prototype-backEnd/lib/lucene-queryparser-8.2.0.jar!/" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -132,6 +171,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Study\Project\Lucene-Project\SearchEngine-prototype-backEnd\lib" />
       <recent name="D:\Study\Project\Lucene-Project\Lucene-First\lib" />
     </key>
   </component>
@@ -147,7 +187,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LuceneFirst.indexSearch">
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.view.Client" />
+      <module name="SearchEngine-prototype-backEnd" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LuceneFirst.createIndex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Lucene-First" />
       <option name="PACKAGE_NAME" value="" />
@@ -188,23 +241,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LuceneFirst.rangeSearch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Lucene-First" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LuceneFirst" />
-      <option name="METHOD_NAME" value="rangeSearch" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LuceneFirst.indexSearch" />
+        <item itemvalue="Application.Client" />
         <item itemvalue="JUnit.LuceneFirst.queryParser" />
         <item itemvalue="JUnit.LuceneFirst.createIndex" />
+        <item itemvalue="JUnit.LuceneFirst.indexSearch" />
         <item itemvalue="JUnit.LuceneFirst.rangeQuery" />
-        <item itemvalue="JUnit.LuceneFirst.rangeSearch" />
       </list>
     </recent_temporary>
   </component>
@@ -220,49 +263,53 @@
       <updated>1572407689501</updated>
       <workItem from="1572407692832" duration="8928000" />
       <workItem from="1572448208256" duration="8253000" />
+      <workItem from="1572553693818" duration="789000" />
+      <workItem from="1572818671969" duration="60000" />
+      <workItem from="1573079824991" duration="118000" />
+      <workItem from="1573336212023" duration="12631000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LuceneFirst_rangeQuery - 2019.10.30 at 13h 13m 50s.xml">
-      <configuration name="LuceneFirst.rangeQuery" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LuceneFirst_createIndex - 2019.10.30 at 13h 22m 28s.xml">
-      <configuration name="LuceneFirst.createIndex" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LuceneFirst_queryParser - 2019.10.30 at 13h 22m 55s.xml">
-      <configuration name="LuceneFirst.queryParser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LuceneFirst_queryParser - 2019.10.30 at 13h 23m 44s.xml">
-      <configuration name="LuceneFirst.queryParser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LuceneFirst_indexSearch - 2019.10.30 at 13h 24m 29s.xml">
-      <configuration name="LuceneFirst.indexSearch" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LuceneFirst_queryParser - 2019.10.30 at 13h 25m 18s.xml">
-      <configuration name="LuceneFirst.queryParser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LuceneFirst_queryParser - 2019.10.30 at 13h 25m 59s.xml">
-      <configuration name="LuceneFirst.queryParser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LuceneFirst_queryParser - 2019.10.30 at 13h 26m 30s.xml">
-      <configuration name="LuceneFirst.queryParser" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LuceneFirst_queryParser - 2019.10.30 at 13h 31m 50s.xml">
-      <configuration name="LuceneFirst.queryParser" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LuceneFirst_indexSearch - 2019.10.30 at 13h 32m 02s.xml">
       <configuration name="LuceneFirst.indexSearch" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LuceneFirst_createIndex - 2019.11.09 at 18h 54m 19s.xml">
+      <configuration name="LuceneFirst.createIndex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LuceneFirst_createIndex - 2019.11.09 at 19h 12m 07s.xml">
+      <configuration name="LuceneFirst.createIndex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LuceneFirst_createIndex - 2019.11.09 at 19h 13m 31s.xml">
+      <configuration name="LuceneFirst.createIndex" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LuceneFirst_queryParser - 2019.11.09 at 19h 24m 08s.xml">
+      <configuration name="LuceneFirst.queryParser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LuceneFirst_queryParser - 2019.11.09 at 19h 24m 30s.xml">
+      <configuration name="LuceneFirst.queryParser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LuceneFirst_queryParser - 2019.11.09 at 19h 24m 49s.xml">
+      <configuration name="LuceneFirst.queryParser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LuceneFirst_queryParser - 2019.11.09 at 19h 25m 02s.xml">
+      <configuration name="LuceneFirst.queryParser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LuceneFirst_queryParser - 2019.11.09 at 19h 25m 57s.xml">
+      <configuration name="LuceneFirst.queryParser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LuceneFirst_queryParser - 2019.11.09 at 19h 26m 09s.xml">
+      <configuration name="LuceneFirst.queryParser" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17181000" />
+    <option name="totallyTimeSpent" value="30779000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2574899" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2631579" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -271,7 +318,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33888888" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45185184" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -281,7 +328,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32962963" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -297,9 +344,16 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="jar://$PROJECT_DIR$/Lucene-First/lib/lucene-queryparser-8.2.0.jar!/org/apache/lucene/queryparser/classic/QueryParser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="45" column="11" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Lucene-First/src/IndexManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
+        <state relative-caret-position="420">
           <caret line="53" column="28" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -307,17 +361,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/Lucene-First/lib/lucene-queryparser-8.2.0.jar!/org/apache/lucene/queryparser/classic/QueryParser.class">
+    <entry file="file://$PROJECT_DIR$/Lucene-First/Lucene-First.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SearchEngine-prototype-backEnd/SearchEngine-prototype-backEnd.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="45" column="11" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
+        <state relative-caret-position="210">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SearchEngine-prototype-backEnd/dataSource/Document Second Test.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SearchEngine-prototype-backEnd/dataSource/Document First Test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lucene-First/src/LuceneFirst.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="987">
-          <caret line="95" column="61" selection-start-line="95" selection-start-column="61" selection-end-line="95" selection-end-column="61" />
+        <state relative-caret-position="419">
+          <caret line="105" column="59" selection-start-line="105" selection-start-column="59" selection-end-line="105" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SearchEngine-prototype-backEnd/src/com/view/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SearchEngine-prototype-backEnd/src/com/service/SearchService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="94" column="35" selection-start-line="94" selection-start-column="35" selection-end-line="94" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -374,7 +458,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Lucene-First</last-edited>
+          <last-edited>SearchEngine-prototype-backEnd</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

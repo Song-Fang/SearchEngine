@@ -77,6 +77,7 @@ public class LuceneFirst {
         }
     }
 
+    //Create Token and print token results
     @Test
     public void tokenStream() throws Exception{
         Analyzer analyzer = new StandardAnalyzer();
@@ -90,7 +91,7 @@ public class LuceneFirst {
         tokenStream.close();
 
     }
-
+    //Query only using range especially using file size
     @Test
     public void rangeQuery() throws Exception{
         Query query = LongPoint.newRangeQuery("size",1,1000);
@@ -98,10 +99,11 @@ public class LuceneFirst {
         indexReader.close();
     }
 
+    //Using query parser to do queries
     @Test
     public void queryParser() throws Exception{
         QueryParser queryParser = new QueryParser("name",new StandardAnalyzer());
-        Query query = queryParser.parse("A large text");
+        Query query = queryParser.parse("A first text;'['[.");
         printQueryResult(query);
     }
 }
