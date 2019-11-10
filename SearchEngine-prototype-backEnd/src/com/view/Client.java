@@ -11,9 +11,10 @@ public class Client {
     private static Scanner scan = new Scanner(System.in);
 
     public static void main(String [] args) throws Exception{
-
+        System.out.println();
         System.out.println("-----------Search Engine beta1.0-----------");
         System.out.println("Not necessary to create index if index already exists!");
+        System.out.println("--------------------------------------------------------");
             System.out.println("Do you need to create index: Y/N");
 
             String indexConfirm = scan.next();
@@ -22,9 +23,13 @@ public class Client {
                 if (indexConfirm.equals("Y") || indexConfirm.equals("y")) {
                     searchService.createIndex();
                     search();
+                    System.out.println("System Terminate, See You!");
+                    break;
 
                 } else if (indexConfirm.equals("N") || indexConfirm.equals("n")) {
                     search();
+                    System.out.println("System Terminate, See You!");
+                    break;
                 } else if(indexConfirm.toLowerCase().equals("exit")){
                     System.out.println("System Terminate, See You!");
                     break;
@@ -40,8 +45,10 @@ public class Client {
     private static void search() throws Exception{
         System.out.println("Search By FileName/Search By Content");
         while(true) {
+            System.out.println("-----------------------------------------------------");
             System.out.println("Press 1 if you search by FileName or 2 by Content");
             System.out.println("Press 3 to exit");
+            System.out.println("-----------------------------------------------------");
             String queryType = scan.next();
             if (queryType.equals("1")) {
                 queryName = "name";
@@ -54,7 +61,7 @@ public class Client {
                 queryContent = scan.next();
                 searchService.queryParser(queryName, queryContent);
             } else if (queryType.equals("3")) {
-                break;
+                return;
             } else {
                 System.out.println("Invalid input, please input again");
                 continue;
