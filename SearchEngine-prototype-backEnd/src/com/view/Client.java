@@ -8,6 +8,7 @@ import java.util.Scanner;
  * Two primary interface
  * One is createIndex
  * The other is indexParser
+ * Use this interface to completer query
  */
 public class Client {
     private static SearchService searchService =new SearchService();;

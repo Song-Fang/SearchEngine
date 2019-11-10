@@ -32,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/SearchEngine-prototype-backEnd/src/com/view/Client.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -261,7 +261,7 @@
       <workItem from="1572818671969" duration="60000" />
       <workItem from="1573079824991" duration="118000" />
       <workItem from="1573336212023" duration="16307000" />
-      <workItem from="1573353346168" duration="233000" />
+      <workItem from="1573353346168" duration="1470000" />
     </task>
     <servers />
   </component>
@@ -298,10 +298,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34688000" />
+    <option name="totallyTimeSpent" value="35925000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2680162" />
@@ -399,7 +399,7 @@
     <entry file="file://$PROJECT_DIR$/SearchEngine-prototype-backEnd/src/com/view/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
